@@ -1,15 +1,44 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.header {
+	height: 90px;
+	background-color: #eb004d;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+
+}
+.header a {
+	text-decoration: none;
+	color: #fff;
+}
+h1 {
+	color: #eb004d;
+}
+
+/* 投稿ページ */
+.comment {
+	width: 450px;
+	height: 320px;
+	background-color: #eb004d;
+	padding: 10px;
+}
+.comment h3{
+	color: #ffffff;
+	margin: 10px;
+}
+.comment input {
+	float: left;
+	margin: 10px;
+	width: 400px;
+}
+.comment textarea {
+	float: left;
+	margin: 10px;
+	width: 400px;
+}

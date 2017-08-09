@@ -8,6 +8,14 @@
 </head>
 <body>
 
+<div class="header">
+		<div class="header-logo"><%= link_to 'ayu', 'top' %></div>
+	      <div class="header-list">
+	        <ul>
+	          <li><%= link_to 'つぶやく', 'tweet/new' %></li>
+	        </ul>
+	    </div>
+    </div>
 <%= yield %>
 
 </body>

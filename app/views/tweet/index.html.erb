@@ -1,1 +1,10 @@
 <h1>hello world</h1>
+<% @tweets.each do |tweet| %>
+	<p><%= tweet.name %>：<%= tweet.text %></p>
+	<img src="<%= tweet.image %>" />
+<% end %>
+<% if @temp > 30 %>
+	<p>暑いですね</p>
+<% else %>
+	<p>涼しいですね</p>
+<% end %>
